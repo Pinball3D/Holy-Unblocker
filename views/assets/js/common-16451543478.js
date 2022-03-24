@@ -89,23 +89,23 @@ window.goProx = {
     },
     mcnow: function(stealth) {
         setAuthCookie("__cor_auth=1", false);
-        goToUrl("https://cdn." + getDomain() + "/sw/" + xor.encode('https://now.gg/play/mojang/2534/minecraft-trial'), stealth);
+        goToUrl("https://a." + getDomain() + "/main/" + 'https://now.gg/play/mojang/2534/minecraft-trial', stealth);
     },
     glife: function(stealth) {
         setAuthCookie("__cor_auth=1", false);
-        goToUrl("https://cdn." + getDomain() + "/sw/" + xor.encode('https://now.gg/play/lunime/5767/gacha-life'), stealth);
+        goToUrl("https://a." + getDomain() + "/main/" + 'https://now.gg/play/lunime/5767/gacha-life', stealth);
     },
     roblox: function(stealth) {
         setAuthCookie("__cor_auth=1", false);
-        goToUrl("https://cdn." + getDomain() + "/sw/" + xor.encode('https://now.gg/play/roblox-corporation/5349/roblox'), stealth);
+        goToUrl("https://a." + getDomain() + "/main/" + 'https://now.gg/play/roblox-corporation/5349/roblox', stealth);
     },
     amongus: function(stealth) {
         setAuthCookie("__cor_auth=1", false);
-        goToUrl("https://cdn." + getDomain() + "/sw/" + xor.encode('https://now.gg/play/innersloth-llc/4047/among-us'), stealth);
+        goToUrl("https://a." + getDomain() + "/main/" + 'https://now.gg/play/innersloth-llc/4047/among-us', stealth);
     },
     pubg: function(stealth) {
         setAuthCookie("__cor_auth=1", false);
-        goToUrl("https://cdn." + getDomain() + "/sw/" + xor.encode('https://now.gg/play/proxima-beta/2609/pubg-mobile-resistance'), stealth);
+        goToUrl("https://a." + getDomain() + "/main/" + 'https://now.gg/play/proxima-beta/2609/pubg-mobile-resistance', stealth);
     },
     train: function(stealth) {
         setAuthCookie("wgauth=yes", false);
